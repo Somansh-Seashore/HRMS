@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "description": "HRMS Monorepo with Frontend and Backend",
   "scripts": {
-    "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && npm run dev",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
     "install:frontend": "cd frontend && npm install",
-    "install:backend": "cd backend && npm install",
-    "install:all": "npm run install:frontend && npm run install:backend"
-  },
-  "workspaces": [
-    "frontend",
-    "backend"
-  ]
+    "install:all": "npm run install:frontend"
+  }
 }

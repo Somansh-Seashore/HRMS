@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "employeeName": "Emily Davis",
+    "task": "Complete HR paperwork",
+    "status": "Completed",
+    "dueDate": "2024-01-12"
+  },
+  {
+    "id": 2,
+    "employeeName": "Emily Davis",
+    "task": "Set up workstation",
+    "status": "Completed",
+    "dueDate": "2024-01-12"
+  },
+  {
+    "id": 3,
+    "employeeName": "Emily Davis",
+    "task": "Attend orientation session",
+    "status": "In Progress",
+    "dueDate": "2024-01-15"
+  },
+  {
+    "id": 4,
+    "employeeName": "Emily Davis",
+    "task": "Meet with manager",
+    "status": "Pending",
+    "dueDate": "2024-01-16"
+  },
+  {
+    "id": 5,
+    "employeeName": "Emily Davis",
+    "task": "Complete training modules",
+    "status": "Pending",
+    "dueDate": "2024-01-20"
+  }
+]

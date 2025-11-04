@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "employeeName": "John Doe",
+    "type": "Annual Leave",
+    "startDate": "2024-02-01",
+    "endDate": "2024-02-05",
+    "days": 5,
+    "reason": "Family vacation",
+    "status": "Approved",
+    "appliedDate": "2024-01-20"
+  },
+  {
+    "id": 2,
+    "employeeName": "Jane Smith",
+    "type": "Sick Leave",
+    "startDate": "2024-01-25",
+    "endDate": "2024-01-26",
+    "days": 2,
+    "reason": "Medical appointment",
+    "status": "Approved",
+    "appliedDate": "2024-01-24"
+  },
+  {
+    "id": 3,
+    "employeeName": "Mike Johnson",
+    "type": "Casual Leave",
+    "startDate": "2024-01-30",
+    "endDate": "2024-01-30",
+    "days": 1,
+    "reason": "Personal matter",
+    "status": "Pending",
+    "appliedDate": "2024-01-28"
+  },
+  {
+    "id": 4,
+    "employeeName": "Sarah Wilson",
+    "type": "Annual Leave",
+    "startDate": "2024-03-15",
+    "endDate": "2024-03-22",
+    "days": 8,
+    "reason": "Spring break",
+    "status": "Pending",
+    "appliedDate": "2024-01-15"
+  },
+  {
+    "id": 5,
+    "employeeName": "David Brown",
+    "type": "Maternity Leave",
+    "startDate": "2024-04-01",
+    "endDate": "2024-06-30",
+    "days": 91,
+    "reason": "Maternity leave",
+    "status": "Approved",
+    "appliedDate": "2024-01-10"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "email": "john.doe@company.com",
+    "phone": "+1 (555) 123-4567",
+    "joinDate": "2023-01-15",
+    "status": "Active",
+    "performance": "Excellent"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "role": "Product Manager",
+    "department": "Product",
+    "email": "jane.smith@company.com",
+    "phone": "+1 (555) 234-5678",
+    "joinDate": "2022-08-20",
+    "status": "Active",
+    "performance": "Good"
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "role": "Designer",
+    "department": "Design",
+    "email": "mike.johnson@company.com",
+    "phone": "+1 (555) 345-6789",
+    "joinDate": "2023-03-10",
+    "status": "Active",
+    "performance": "Average"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Wilson",
+    "role": "HR Specialist",
+    "department": "HR",
+    "email": "sarah.wilson@company.com",
+    "phone": "+1 (555) 456-7890",
+    "joinDate": "2022-11-05",
+    "status": "Active",
+    "performance": "Good"
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "role": "Financial Analyst",
+    "department": "Finance",
+    "email": "david.brown@company.com",
+    "phone": "+1 (555) 567-8901",
+    "joinDate": "2023-06-01",
+    "status": "Active",
+    "performance": "Excellent"
+  },
+  {
+    "id": 6,
+    "name": "Emily Davis",
+    "role": "Marketing Coordinator",
+    "department": "Marketing",
+    "email": "emily.davis@company.com",
+    "phone": "+1 (555) 678-9012",
+    "joinDate": "2024-01-10",
+    "status": "Active",
+    "performance": "Good"
+  }
+]

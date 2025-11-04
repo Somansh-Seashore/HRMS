@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "employeeName": "John Doe",
+    "date": "2024-01-15",
+    "clockIn": "09:00",
+    "clockOut": "17:30",
+    "totalHours": "8.5"
+  },
+  {
+    "id": 2,
+    "employeeName": "Jane Smith",
+    "date": "2024-01-15",
+    "clockIn": "08:45",
+    "clockOut": "17:15",
+    "totalHours": "8.5"
+  },
+  {
+    "id": 3,
+    "employeeName": "Mike Johnson",
+    "date": "2024-01-15",
+    "clockIn": "09:15",
+    "clockOut": "17:45",
+    "totalHours": "8.5"
+  },
+  {
+    "id": 4,
+    "employeeName": "Sarah Wilson",
+    "date": "2024-01-15",
+    "clockIn": "08:30",
+    "clockOut": "17:00",
+    "totalHours": "8.5"
+  },
+  {
+    "id": 5,
+    "employeeName": "David Brown",
+    "date": "2024-01-15",
+    "clockIn": "09:00",
+    "clockOut": "17:30",
+    "totalHours": "8.5"
+  }
+]
