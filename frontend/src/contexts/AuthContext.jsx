@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { supabase } from "../supabaseClient";
+import { isLoggedIn, getCurrentUser, logout } from "../utils/twilioService";
 
 export const AuthContext = createContext();
 
@@ -8,31 +8,23 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Get initial session
-    const getSession = async () => {
-      const {
-        data: { session },
-      } = await supabase.auth.getSession();
-      setUser(session?.user ?? null);
+    // Check if user is logged in
+    const checkAuth = () => {
+      if (isLoggedIn()) {
+        const userData = getCurrentUser();
+        setUser({ phoneNumber: userData.phoneNumber });
+      } else {
+        setUser(null);
+      }
       setLoading(false);
     };
 
-    getSession();
-
-    // Listen for auth changes
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((event, session) => {
-      setUser(session?.user ?? null);
-      setLoading(false);
-    });
-
-    return () => subscription.unsubscribe();
+    checkAuth();
   }, []);
 
-  const signOut = async () => {
-    localStorage.removeItem("username");
-    await supabase.auth.signOut();
+  const signOut = () => {
+    logout();
+    setUser(null);
   };
 
   const value = {
